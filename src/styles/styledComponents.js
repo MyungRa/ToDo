@@ -17,10 +17,14 @@ export const Title = styled.div`
 export const List = styled.div`
     position: absolute;
     left: 49%;
-    top: 45%;
+    top: 50%;
     transform: translate(-50%, -26%);
     background-color: white;
     width: 466px;
-    height: 400px;
-    overflow-y: scroll
+    height: 500px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    &::-webkit-scrollbar{
+        display:none;
+    }
 `
